@@ -55,7 +55,7 @@ module Faker
       ##
       # Produce a random date in the future (up to N days).
       #
-      # @param from [Integer] The start of the usable forward date range.
+      # @param from [Date, String] The start of the usable forward date range.
       # @param days [Integer] The maximum number of days to go into the future.
       # @return [Date]
       #
